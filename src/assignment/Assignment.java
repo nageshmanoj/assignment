@@ -118,14 +118,12 @@ public class Assignment {
 			
 			float newValue = Float.valueOf(formattedValue);
 			
-         //	System.out.println("comparing" + newValue + " and " + amounts[index]);
+         		// System.out.println("comparing" + newValue + " and " + amounts[index]);
 			
 			// comparing new value with sorted array's value
 			Assert.assertEquals(newValue, amounts[index]);
 		}
 		
-		driver.close();
-		
+		driver.close();	
 	}
-	
 }
